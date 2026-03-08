@@ -623,7 +623,9 @@ export default function TraceAnalyzer() {
             justifyContent='space-between'
             alignItems={{ xs: "stretch", md: "center" }}
           >
-            <Typography variant='h5'>{d.title}</Typography>
+            <Typography variant='h5' sx={{ fontWeight: 700 }}>
+              {d.title}
+            </Typography>
 
             <FormControl size='small' sx={{ minWidth: 150 }}>
               <InputLabel>Language</InputLabel>

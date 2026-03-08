@@ -115,7 +115,7 @@ function AboutBlock() {
       placement='bottom-end'
       title={
         <Box sx={{ p: 0.5 }}>
-          <Typography variant='subtitle2' sx={{ mb: 1 }}>
+          <Typography variant='subtitle1' sx={{ mb: 1 }}>
             Scheduler.log Analyzer
           </Typography>
 
